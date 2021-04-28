@@ -1,1 +1,3 @@
-# Information_Organization_Homework
+# 信息组织实习报告
+
+## 欢迎大家一起来完成信息组织的实习吧！
