@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="个人信息">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="姓名" type="xs:string" />
+                <xs:element name="编号">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xs:pattern value="[0-9]{10}" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="性别">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="0" />
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="9" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="出生日期" type="xs:date" />
+
+                <xs:element name="身份证号">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="工作单位" type="xs:string" />
+                <xs:element name="本人电话" type="xs:string" />
+                <xs:element name="联系人姓名" type="xs:string" />
+                <xs:element name="联系人电话" type="xs:string" />
+
+                <xs:element name="常住类型">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="民族">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="少数民族" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="血型">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="RH阴性">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="key">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:enumeration value="1" />
+                                                    <xs:enumeration value="2" />
+                                                    <xs:enumeration value="3" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="文化程度">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                        <xs:enumeration value="6" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="职业">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                        <xs:enumeration value="6" />
+                                        <xs:enumeration value="7" />
+                                        <xs:enumeration value="8" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="婚姻状况">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="医疗费用支付方式">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                        <xs:enumeration value="6" />
+                                        <xs:enumeration value="7" />
+                                        <xs:enumeration value="8" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="其他" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="药物过敏史">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                        <xs:enumeration value="6" />
+                                        <xs:enumeration value="7" />
+                                        <xs:enumeration value="8" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="其他" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="既往史">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="疾病">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="确诊疾病" minOccurs="1" maxOccurs="6">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="key">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:integer">
+                                                                <xs:pattern value="[1-9]|(1[0-2])"></xs:pattern>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="其他" type="xs:string" minOccurs="0" maxOccurs="1" />
+                                                    <xs:element name="确诊时间" type="xs:date" minOccurs="0" maxOccurs="1" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="手术" type="具体内容" />
+                            <xs:element name="外伤" type="具体内容" />
+                            <xs:element name="输血">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="key">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:enumeration value="1" />
+                                                    <xs:enumeration value="2" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="具体" minOccurs="0" maxOccurs="2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="原因" type="xs:string" />
+                                                    <xs:element name="时间" type="xs:date" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="家族史">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="父亲" type="家人病史" />
+                            <xs:element name="母亲" type="家人病史" />
+                            <xs:element name="兄弟姐妹" type="家人病史" />
+                            <xs:element name="子女" type="家人病史" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="遗传病史">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="疾病名称" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="残疾情况">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="key" minOccurs="1" maxOccurs="6">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                        <xs:enumeration value="6" />
+                                        <xs:enumeration value="7" />
+                                        <xs:enumeration value="8" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="其他残疾" type="xs:string" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+    <xs:complexType name="具体内容">
+        <xs:sequence>
+            <xs:element name="key">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:enumeration value="1" />
+                        <xs:enumeration value="2" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="具体" minOccurs="0" maxOccurs="2">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="名称" type="xs:string" />
+                        <xs:element name="时间" type="xs:date" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="家人病史">
+        <xs:sequence>
+            <xs:element name="key" minOccurs="1" maxOccurs="6">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:pattern value="[1-9]|(1[0-2])"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="其他" type="xs:string" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:schema>

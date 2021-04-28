@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin: 0;
+    padding: 10%;
+}
+.info-table{
+    width: 100%;
+    text-align: center;
+}
+td{
+    display: float;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+.underline{
+    display: inline-block;
+    border-bottom: 1px black solid;
+}
+.slash{
+    width: 10px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+.box-inline{
+    width: 20px;
+    height: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    display: inline-block;
+}
