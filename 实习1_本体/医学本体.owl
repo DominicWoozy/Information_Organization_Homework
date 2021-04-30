@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/libei/ontologies/2019/1/医学本体"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/libei/ontologies/2019/1/医学本体">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>李蓓自建</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#三尖瓣疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中毒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#主动脉瓣膜疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#二尖瓣疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人为现象"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#克山病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#医学"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#心内膜疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#心包疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#心瓣膜疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#心肌疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#心脏疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#心血管疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#损伤"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#概念实体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#活动"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物理实体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#现象及过程"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#生物功能"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#生理功能"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#疾病和综合征"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#病理功能"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#精神和行为失常"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#肺动脉瓣疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#肿瘤"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#自然现象"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#血压异常"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#血管疾病"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#临床检查"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#体征"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#并发于"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#并发症"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#易感人群"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#治疗"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#病因"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#病理"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#超声心动图"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#预后"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#发病率"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#二尖瓣关闭不全"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#二尖瓣狭窄"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#二尖瓣脱垂"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#三尖瓣疾病"/>
+        <Class IRI="#心瓣膜疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#中毒"/>
+        <Class IRI="#现象及过程"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#主动脉瓣膜疾病"/>
+        <Class IRI="#心瓣膜疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#二尖瓣疾病"/>
+        <Class IRI="#心瓣膜疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#人为现象"/>
+        <Class IRI="#现象及过程"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#克山病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#心内膜疾病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#心包疾病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#心瓣膜疾病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#心肌疾病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#心脏疾病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#心血管疾病"/>
+        <Class IRI="#疾病和综合征"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#损伤"/>
+        <Class IRI="#现象及过程"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#概念实体"/>
+        <Class IRI="#医学"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#活动"/>
+        <Class IRI="#医学"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#物理实体"/>
+        <Class IRI="#医学"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#现象及过程"/>
+        <Class IRI="#医学"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#生物功能"/>
+        <Class IRI="#自然现象"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#生理功能"/>
+        <Class IRI="#生物功能"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#疾病和综合征"/>
+        <Class IRI="#病理功能"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#病理功能"/>
+        <Class IRI="#生物功能"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#精神和行为失常"/>
+        <Class IRI="#疾病和综合征"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#肺动脉瓣疾病"/>
+        <Class IRI="#心瓣膜疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#肿瘤"/>
+        <Class IRI="#疾病和综合征"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#自然现象"/>
+        <Class IRI="#现象及过程"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#血压异常"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#血管疾病"/>
+        <Class IRI="#心血管疾病"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#克山病"/>
+        <Class IRI="#心瓣膜疾病"/>
+    </DisjointClasses>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#并发于"/>
+        <NamedIndividual IRI="#二尖瓣脱垂"/>
+        <NamedIndividual IRI="#二尖瓣关闭不全"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

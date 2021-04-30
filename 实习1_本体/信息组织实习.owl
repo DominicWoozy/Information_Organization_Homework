@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#上段食管癌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#上段食管癌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#解剖部位分型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#下段食管癌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#下段食管癌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#解剖部位分型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#不良饮食习惯 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#不良饮食习惯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#中段食管癌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#中段食管癌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#解剖部位分型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#临床表现 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#临床表现">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#亚酰胺和某些毒菌以及其毒素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#亚酰胺和某些毒菌以及其毒素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#伊立体康 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#伊立体康">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化学疗法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#内镜下治疗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#内镜下治疗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#凹陷型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#凹陷型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#出血 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#出血">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#术后并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化学疗法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化学疗法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化疗不良反应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化疗不良反应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吸烟发生率增加3-8倍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吸烟发生率增加3-8倍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吸烟和重度饮酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吸烟和重度饮酒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吸烟和重度饮酒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吻合口瘘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吻合口瘘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#术后并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#复发和转移 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#复发和转移">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#大体分型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#大体分型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#疾病类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#姑息手术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#姑息手术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#手术治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#局部复发 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#局部复发">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#复发和转移"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#并发症 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#并发症">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#手术治疗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#手术治疗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放化疗联合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放化疗联合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放射性食管炎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放射性食管炎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放疗并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放射疗法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放射疗法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放疗并发症 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放疗并发症">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#明显的吞咽困难 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#明显的吞咽困难">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#临床表现"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#术后并发症 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#术后并发症">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#根治手术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#根治手术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#手术治疗"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#检测手段 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#检测手段">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#溃疡型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#溃疡型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#特意性抗原检测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#特意性抗原检测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#检测手段"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#疾病类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#疾病类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#确切病因尚不清楚 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#确切病因尚不清楚">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#紫杉醇 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#紫杉醇">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化学疗法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#纤维胃镜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#纤维胃镜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#检测手段"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#缩窄型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#缩窄型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#缺乏某些微量元素及维生素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#缺乏某些微量元素及维生素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#肺不张与肺部感染 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#肺不张与肺部感染">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#术后并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#胃肠道反应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#胃肠道反应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化疗不良反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#胸骨后疼痛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#胸骨后疼痛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#临床表现"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#腔内型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#腔内型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#营养支持治疗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#营养支持治疗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#治疗方法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#蕈伞型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#蕈伞型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅凹陷型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅凹陷型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅食管癌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅食管癌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#大体分型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#解剖部位分型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#解剖部位分型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#疾病类型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#转移和侵犯临近器官可引起疼痛和被累及器官的相应不适 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#转移和侵犯临近器官可引起疼痛和被累及器官的相应不适">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#临床表现"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#大体分型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#隆起型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#隆起型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#表浅食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#顺铂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#顺铂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化学疗法"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管气钡双重造影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管气钡双重造影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#检测手段"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌遗传易感因素 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管癌遗传易感因素">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#病因"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管穿孔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管穿孔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#放疗并发症"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管超声内镜检查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#食管超声内镜检查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#检测手段"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#饮酒发生率增加7-50倍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#饮酒发生率增加7-50倍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吸烟和重度饮酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#骨髓移植 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#骨髓移植">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#化疗不良反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#髓质型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#髓质型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#进展性食管癌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吞咽食物时哽咽,异物感 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#吞咽食物时哽咽,异物感">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#临床表现"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#转移:远处转移,淋巴结转移 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#转移:远处转移,淋巴结转移">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lap/ontologies/2021/2/untitled-ontology-3#复发和转移"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
