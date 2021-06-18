@@ -1,25 +1,18 @@
-一.  ICD-9-CM-3的基本知识
-1. 写出ICD-9-CM-3的英文全称
-International Classification of Diseases Clinical Modification of 9th Revision Operations and Procedurs
+# 一.  ICD-9-CM-3的基本知识
+## 1. 写出ICD-9-CM-3的英文全称
+*International Classification of Diseases Clinical Modification of 9th Revision Operations and Procedurs*
 
+## 2. 写出ICD-9-CM-3编码的操作步骤
+    1．分析病案，主要手术操作核查
+    2. 利用工具书，查找编码
+	a.从医生书写的主要手术操作中确定主导词. 
+	b.以主导词为查询入口，在索引中查找编码. 
+	c.回类目表中核对编码. 
 
-2. 写出ICD-9-CM-3编码的操作步骤
-1．分析病案，主要手术操作核查
-2. 利用工具书，查找编码
-	a从医生书写的主要手术操作中确定主导词
-	b以主导词为查询入口，在索引中查找编码
-	c回类目表中核对编码
-
-
-
-3. 手术操作分类的核心轴心是什么？
+## 3. 手术操作分类的核心轴心是什么？
 	2个分类轴心： 部位轴心、术式轴心
 
-
-
-
-
-二. 对以下手术及医疗操作进行正确编码：
+# 二. 对以下手术及医疗操作进行正确编码：
         	手术及医疗操作	主导词	编码
 1	上腔静脉超声成像	超声-血管内-腔静脉（上，下）	00.22胸内血管的血管内显像-腔静脉（上）（下）
 2	股动脉药物洗脱支架植入术	插入-支架-动脉-股动脉表浅的，药物洗脱	00.60表浅股动脉洗脱药物支架置入
